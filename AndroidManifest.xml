@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project.finalyear.mongo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="project.finalyear.mongo.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="project.finalyear.mongo.ModifyGroupActivity"
+            android:label="@string/activity_modify_group_String_title" >
+        </activity>
+        <activity
+            android:name="project.finalyear.mongo.ModifyTaskActivity"
+            android:label="@string/activity_modify_task_String_title" >
+        </activity>
+        <activity
+            android:name="project.finalyear.mongo.SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name="project.finalyear.mongo.ViewAllGroupsActivity"
+            android:label="@string/activity_view_all_groups_String_title" >
+        </activity>
+        <activity
+            android:name="project.finalyear.mongo.ViewAllTasksActivity"
+            android:label="@string/activity_view_all_tasks_String_title" >
+        </activity>
+        <activity
+            android:name="project.finalyear.mongo.ViewTaskDetailActivity"
+            android:label="@string/activity_view_task_detail_String_title" >
+        </activity>
+        <activity
+            android:name="project.finalyear.mongo.GeneralActivity"
+            android:label="@string/title_activity_general" >
+        </activity>
+        <activity
+            android:name="project.finalyear.mongo.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="project.finalyear.mongo.UserRegistrationActivity"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="project.finalyear.mongo.RetailerRegistrationActivity"
+            android:label="@string/title_activity_registration" >
+        </activity>
+    </application>
+
+</manifest>

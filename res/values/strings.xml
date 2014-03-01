@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MOnGO</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_general">GeneralActivity</string>
+
+    <string-array name="activity_main_Listview_main_option_Stringarray_values">
+        <item>@string/activity_main_Listview_main_option_Item_show_all_groups_String_title</item>
+        <item>@string/activity_main_Listview_main_option_Item_show_all_tasks_String_title</item>
+    </string-array>
+    <string-array name="activity_modify_task_Spinner_priority_level_Stringarray_values">
+        <item>@string/activity_modify_task_Spinner_priority_level_Item_high_String_title</item>
+        <item>@string/activity_modify_task_Spinner_priority_level_Item_medium_String_title</item>
+        <item>@string/activity_modify_task_Spinner_priority_level_Item_low_String_title</item>
+    </string-array>
+    <string-array name="activity_modify_task_Spinner_completion_status_Stringarray_values">
+        <item>@string/activity_modify_task_Spinner_completion_status_Item_yes_String_title</item>
+        <item>@string/activity_modify_task_Spinner_completion_status_Item_no_String_title</item>
+    </string-array>
+
+    <string name="activity_main_Listview_main_option_Item_show_all_groups_String_title">Show All Task Groups</string>
+    <string name="activity_main_Listview_main_option_Item_show_all_tasks_String_title">Show All Tasks</string>
+    <string name="activity_view_all_groups_String_title">All Groups</string>
+    <string name="activity_view_all_groups_Menu_actionbar_Item_add_String_title">Add</string>
+    <string name="activity_view_all_groups_Menu_actionbar_Item_manage_String_title">Manage</string>
+    <string name="activity_view_all_tasks_String_title">All Tasks</string>
+    <string name="activity_view_all_tasks_Menu_actionbar_Item_add_String_title">Add</string>
+    <string name="activity_view_all_tasks_Menu_actionbar_Item_manage_String_title">Manage</string>
+    <string name="activity_modify_group_String_title">Group</string>
+    <string name="activity_modify_group_Textview_group_title_String_title">Group Title</string>
+    <string name="activity_modify_group_Menu_actionbar_Item_save_String_title">Save</string>
+    <string name="activity_modify_group_Menu_actionbar_Item_cancel_String_title">Cancel</string>
+    <string name="activity_modify_group_Edittext_group_title_String_hint">Enter group title</string>
+    <string name="activity_view_task_detail_String_title">Task Detail</string>
+    <string name="activity_modify_task_String_title">Task</string>
+    <string name="activity_modify_task_TextView_task_title_String_title">Task title</string>
+    <string name="activity_modify_task_EditText_task_title_String_hint">Enter Task Title</string>
+    <string name="activity_modify_task_TextView_due_date_String_title">Due date</string>
+    <string name="activity_modify_task_TextView_Location_String_title">Task Location</string>
+    <string name="activity_modify_task_EditText_Location_String_hint">Enter Task Location</string>
+    <string name="activity_modify_task_Textview_priority_level_String_title">Priority Level</string>
+    <string name="activity_modify_task_Spinner_priority_level_Item_high_String_title">High</string>
+    <string name="activity_modify_task_Spinner_priority_level_Item_medium_String_title">Medium</string>
+    <string name="activity_modify_task_Spinner_priority_level_Item_low_String_title">Low</string>
+    <string name="activity_modify_task_TextView_collaborators_String_title">MeetUps</string>
+    <string name="activity_modify_task_TextView_group_String_title">Group</string>
+    <string name="activity_modify_task_TextView_completion_status_String_title">Status</string>
+    <string name="activity_modify_task_Spinner_completion_status_Item_yes_String_title">Completed</string>
+    <string name="activity_modify_task_Spinner_completion_status_Item_no_String_title">Not completed yet</string>
+    <string name="activity_modify_task_Menu_actionbar_Item_save_String_title">Save</string>
+    <string name="activity_modify_task_Menu_actionbar_Item_cancel_String_title">Cancel</string>
+    <string name="activity_modify_task_Dialog_confirm_cancel_Button_positive_String_title">Yes</string>
+    <string name="activity_modify_task_Dialog_confirm_cancel_Button_negative_String_title">No</string>
+    <string name="activity_modify_task_Dialog_confirm_cancel_TextView_label_String_title">Are you sure to cancel?</string>
+    <string name="activity_modify_task_Button_select_collaborator_String_title">Add</string>
+    <string name="activity_modify_task_Button_clear_collaborator_String_title">Clear</string>
+    <string name="activity_view_task_detail_Menu_actionbar_Item_edit_String_title">Edit Task</string>
+    <string name="activity_view_task_detail_Menu_actionbar_Item_delete_String_title">Delete Task</string>
+    <string name="activity_view_task_detail_Menu_actionbar_Item_add_String_title">Add Task</string>
+    <string name="activity_setting_Checkbox_notification_String_title">Enable Notification</string>
+    <string name="activity_setting_Menu_actionbar_Item_save_String_title">Save</string>
+    <string name="activity_setting_Menu_actionbar_Item_cancel_String_title">Cancel</string>
+
+    <string-array name="sample_groups">
+        <item>Group 1</item>
+        <item>Group 2</item>
+        <item>Group 3</item>
+        <item>Group 4</item>
+        <item>Group 5</item>
+        <item>Group 1</item>
+        <item>Group 2</item>
+        <item>Group 3</item>
+        <item>Group 4</item>
+        <item>Group 5</item>
+        <item>Group 1</item>
+        <item>Group 2</item>
+        <item>Group 3</item>
+        <item>Group 4</item>
+        <item>Group 5</item>
+    </string-array>
+    <string-array name="sample_tasks">
+        <item>Taks 1</item>
+        <item>Task 2</item>
+        <item>Task 3</item>
+        <item>Task 4</item>
+        <item>Task 5</item>
+        <item>Taks 1</item>
+        <item>Task 2</item>
+        <item>Task 3</item>
+        <item>Task 4</item>
+        <item>Task 5</item>
+        <item>Taks 1</item>
+        <item>Task 2</item>
+        <item>Task 3</item>
+        <item>Task 4</item>
+        <item>Task 5</item>
+    </string-array>
+    <string-array name="sample_collaborators">
+        <item>tommy1@gmail.com</item>
+        <item>truong@gmail.com</item>
+        <item>mr.truong.tx@facebook.com</item>
+        <item>s3393320@rmit.edu.vn</item>
+    </string-array>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+
+</resources>
