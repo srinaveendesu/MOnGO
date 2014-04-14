@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/basic_background">
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/retailer_loginfrom_adduser_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onAddClick"
+            android:text="@string/add_user"
+            android:textStyle="normal" />
+
+         <Button
+             android:id="@+id/retailer_loginform_login_button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:onClick="onLoginClick"
+             android:text="@string/login"
+             android:textStyle="bold" />
+        
+    </LinearLayout>
+    
+            <LinearLayout
+        android:id="@+id/group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/user_name"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           tools:context=".RetailerMainActivity" />
+
+               <Spinner
+                   android:id="@+id/retailer_loginform_users_spinner"
+                   android:layout_width="0dip"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1" />
+        
+    			</LinearLayout>
+    
+        <LinearLayout
+            android:id="@+id/group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/user_pwd"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           tools:context=".RetailerMainActivity" />
+
+               <EditText
+                   android:id="@+id/retailer_loginform_login_password"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:ems="10"
+                   android:inputType="textPassword" />
+        
+    </LinearLayout>
+</LinearLayout>

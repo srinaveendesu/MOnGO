@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/basic_background">
+
+<LinearLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+        <LinearLayout
+        android:id="@+id/group41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/Retailer_text_view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/retailer_item_name"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:typeface="serif"
+           tools:context=".EditItemActivity" />
+
+               <EditText
+                   android:id="@+id/retailer_name_edit_item_editText"
+                   android:layout_width="0dip"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:ems="10"
+                   android:hint="@string/retailer_item_name_default"
+                   android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+        
+    </LinearLayout>
+    
+        
+        
+                <LinearLayout
+        android:id="@+id/group42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView42"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/retailer_item_product"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:typeface="serif"
+           tools:context=".EditItemActivity" />
+
+               <EditText
+                   android:id="@+id/retailer_product_edit_item_editText"
+                   android:layout_width="0dip"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:ems="10"
+                   android:hint="@string/retailer_item_product_default"
+                   android:inputType="text" >
+
+        </EditText>
+        
+    </LinearLayout>
+    
+    
+        
+        
+                <LinearLayout
+        android:id="@+id/group50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView50"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/retailer_item_latitude"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:typeface="serif"
+           tools:context=".EditItemActivity" />
+
+               <EditText
+                   android:id="@+id/retailer_latitude_edit_item_editText"
+                   android:layout_width="0dip"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:ems="10"
+                   android:hint="@string/retailer_item_latitude_default"
+                   android:inputType="text|number|numberSigned|numberDecimal" >
+
+        </EditText>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/group60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView60"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/retailer_item_longitude"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:typeface="serif"
+           tools:context=".EditItemActivity" />
+
+               <EditText
+                   android:id="@+id/retailer_longitude_edit_item_editText"
+                   android:layout_width="0dip"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:ems="10"
+                   android:hint="@string/retailer_item_longitude_default"
+                   android:inputType="text|number|numberSigned|numberDecimal" >
+
+        </EditText>
+        
+    </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/retailer_date_edit_item_checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_due_time" />
+
+                <DatePicker
+                    android:id="@+id/retailer_calender_edit_item_datePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                                <LinearLayout
+        android:id="@+id/group44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+                       <TextView
+                           android:id="@+id/textView43"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/discount"
+                           android:textSize="20sp"
+                           android:textStyle="bold"
+                           android:typeface="serif"
+                           tools:context=".EditItemActivity" />
+
+                <SeekBar
+                    android:id="@+id/retailer_discount_edit_item_seekBar"
+                    android:layout_width="212dp"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:minWidth="200dp" />
+
+                <TextView
+                    android:id="@+id/discountvalue"
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/discount_value"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:context=".EditItemActivity" />
+
+                </LinearLayout>
+                
+                  <LinearLayout
+        android:id="@+id/group45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/retailer_cancel_edit_item_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onCancelClick"
+                    android:text="@string/cancel_button"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <Button
+                    android:id="@+id/retailer_save_edit_item_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onSaveClick"
+                    android:text="@string/save_button"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                </LinearLayout>
+
+                  
+
+</LinearLayout>
+</ScrollView>
+
+
+

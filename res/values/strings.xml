@@ -4,8 +4,18 @@
     <string name="app_name">MOnGO</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="retailer_store">RETAILER STORE</string>
+    <string name="todo_manager">TODO MANAGER</string>
     <string name="title_activity_setting">SettingActivity</string>
     <string name="title_activity_general">GeneralActivity</string>
+    <string-array name="categories">
+        <item>Footwear</item>
+        <item>Clothing</item>
+        <item>Electronics</item>
+        <item>Accesories</item>
+        <item>Watches</item>
+        <item>General</item>
+    </string-array>
 
     <string-array name="activity_main_Listview_main_option_Stringarray_values">
         <item>@string/activity_main_Listview_main_option_Item_show_all_groups_String_title</item>
@@ -63,6 +73,39 @@
     <string name="activity_setting_Checkbox_notification_String_title">Enable Notification</string>
     <string name="activity_setting_Menu_actionbar_Item_save_String_title">Save</string>
     <string name="activity_setting_Menu_actionbar_Item_cancel_String_title">Cancel</string>
+    <string name="title_activity_main">RETAILER</string>
+    <string name="add_user">Add user</string>
+    <string name="title_activity_add_user">Add User</string>
+    <string name="user_name">User name</string>
+    <string name="user_pwd">Password</string>
+    <string name="confirm_pwd">Confirm password</string>
+    <string name="create_account">Add user</string>
+    <string name="login">Login</string>
+    <string name="title_activity_offer_list">OFFER List</string>
+    <string name="add_item_offer">Add offer</string>
+    <string name="title_activity_edit_item_offer">Edit offer</string>
+    <string name="retailer_item_name">Retailer</string>
+    <string name="retailer_item_name_default">Retailer Name</string>
+    <string name="retailer_item_product">Product</string>
+    <string name="retailer_item_product_default">product</string>
+    <string name="retailer_item_longitude">Longitude</string>
+    <string name="retailer_item_longitude_default">Longitude</string>
+    <string name="retailer_item_latitude">Latitude</string>
+    <string name="retailer_item_latitude_default">Latitude</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="set_due_time">Set due time?</string>
+    <string name="task_checked">Completed?</string>
+    <string name="discount">Discount</string>
+    <string name="discount_value">0</string>
+    <string name="popmenu1">Edit Offer</string>
+    <string name="popmenu2">Delete Offer</string>
+    <string name="hide_checked">Hide expired offers</string>
+    <string name="sortbyduedate">Sort by due date</string>
+    <string name="sortbypriority">Sort by priority</string>
+    <string name="changepwd">Change password</string>
+    <string name="logout">Logout</string>
+    <string name="sync">Synchronize</string>
 
     <string-array name="sample_groups">
         <item>Group 1</item>
@@ -99,13 +142,14 @@
         <item>Task 5</item>
     </string-array>
     <string-array name="sample_collaborators">
-        <item>tommy1@gmail.com</item>
-        <item>truong@gmail.com</item>
-        <item>mr.truong.tx@facebook.com</item>
-        <item>s3393320@rmit.edu.vn</item>
+        <item>srinaveen@gmail.com</item>
+        <item>sandeep@gmail.com</item>
+        <item>saketh@facebook.com</item>
+        <item>kamakshi@sastra.edu</item>
     </string-array>
 
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_entry_form">EntryFormActivity</string>
 
 </resources>

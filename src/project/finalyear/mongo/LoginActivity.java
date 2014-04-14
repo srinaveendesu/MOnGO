@@ -67,7 +67,7 @@ public class LoginActivity extends Activity {
 					if(m.equals("ok"))
 						
 					{
-						Intent i1=new Intent(LoginActivity.this,MainActivity.class);
+						Intent i1=new Intent(LoginActivity.this,TodoMainActivity.class);
 					
 				         
 						startActivity(i1);
@@ -103,7 +103,7 @@ public class LoginActivity extends Activity {
 					if(m.equals("ok"))
 						
 					{
-						Intent i1=new Intent(LoginActivity.this,MainActivity.class);
+						Intent i1=new Intent(LoginActivity.this,TodoMainActivity.class);
 					
 				         
 						startActivity(i1);

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/basic_background"
+    android:orientation="vertical" >
+
+    <TabHost
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:id="@+id/tabHost">
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+            </TabWidget>
+            <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    
+                <LinearLayout
+                    android:id="@+id/entry_tab"    
+                    android:layout_width="match_parent"
+   				 	android:layout_height="match_parent"
+    				android:clickable="true"
+    				android:longClickable="true"
+    				android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/retailer_store_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/retailer_store"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:onClick="createRetailer"/>
+
+        <Button
+            android:id="@+id/todo_manager_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="184dp"
+            android:text="@string/todo_manager"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" 
+            android:onClick="createTodo"/>
+                    
+                </LinearLayout>
+                
+                
+                <LinearLayout
+                        android:id="@+id/categories_tab"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                    <TableLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" android:layout_gravity="center">
+                        <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:layout_weight="1">
+                            <ToggleButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Footwear"
+                                    android:id="@+id/footwearButton" android:layout_weight="1" android:textOff="Footwear"
+                                    android:textOn="Footwear"/>
+                            <ToggleButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Clothing"
+                                    android:id="@+id/Clothing" android:layout_weight="1" android:textOff="Clothing"
+                                    android:textOn="Clothing"/>
+                        </TableRow>
+                        <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent" android:layout_weight="1">
+                            <ToggleButton
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:text="Electronics"
+                                    android:id="@+id/electronicsButton" android:layout_weight="1" android:textOff="Electronics"
+                                    android:textOn="Electronics"/>
+                            <ToggleButton
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:text="Accessories"
+                                    android:id="@+id/accessoriesButton" android:layout_weight="1" android:textOff="Accessories"
+                                    android:textOn="Accessories"/>
+                        </TableRow>
+                        <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent" android:layout_weight="1">
+                            <ToggleButton
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:text="Watches"
+                                    android:id="@+id/watchesButton" android:layout_weight="1" android:textOn="Watches"
+                                    android:textOff="Watches"/>
+
+                            <ToggleButton
+                                android:id="@+id/generalButton"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:text="General"
+                                android:textOff="General"
+                                android:textOn="General" />
+
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+                
+                <LinearLayout
+                        android:id="@+id/coupons_tab"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add an Offer or Task at your current location or spceify co-ordinates"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+
+                    <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Your Message..."
+                            android:id="@+id/message" android:lines="5" android:textAlignment="textStart"/>
+
+                    <EditText
+                        android:id="@+id/init_lat_editText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter latitude else Enter Zero"
+                        android:inputType="number|numberSigned|numberDecimal"
+                        android:lines="1"
+                        android:textAlignment="textStart" />
+
+                    <EditText
+                        android:id="@+id/init_long_editText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter longitude else Enter Zero"
+                        android:inputType="number|numberSigned|numberDecimal"
+                        android:lines="1"
+                        android:textAlignment="textStart" />
+                    <EditText
+                        android:id="@+id/init_address_editText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Location Address"
+                        
+                        android:lines="1"
+                        android:textAlignment="textStart" />
+
+                    <Spinner
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cat" android:entries="@array/categories"/>
+                    <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Create Notification"
+                            android:id="@+id/createCouponButton" 
+                            android:onClick="createCoupon"/>
+                    <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Genrate Co-ordinates"
+                            android:id="@+id/generateCoordinateButton" 
+                            />
+                </LinearLayout>
+                
+              </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>
+

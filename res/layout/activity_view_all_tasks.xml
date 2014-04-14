@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/general_background"
-    tools:context=".MainActivity" >
+    tools:context=".TodoMainActivity" >
 
     <ListView
         android:id="@+id/activity_view_all_tasks_Listview_all_tasks"

@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/group100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+	</LinearLayout>
+        <LinearLayout
+        android:id="@+id/group150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+        
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/todo_manager_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="184dp"
+            android:text="@string/todo_manager"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/retailer_store_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/todo_manager_button"
+            android:layout_alignParentLeft="true"
+            android:text="@string/retailer_store"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>

@@ -9,7 +9,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-public class MainActivity extends Activity {
+public class TodoMainActivity extends Activity {
 
 	private ListView mainListView;
 
